@@ -1,0 +1,235 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+/********************* Barra de Navegação *********************/
+
+#all_products_item {
+    border-bottom: 2px solid #232323; 
+    width: 7rem; 
+}
+
+#suspension_item {
+    border-bottom: 2px solid #d40f85;
+    width: 7rem;
+}
+
+#floor_item {
+    border-bottom: 2px solid #0079a7;
+    width: 7rem;
+}
+
+#table_item {
+    border-bottom: 2px solid #16e4b9;
+    width: 7rem;
+}
+
+#wall_item {
+    border-bottom: 2px solid #f36c2e;
+    width: 7rem;
+}
+
+#graphic_item {
+    border-bottom: 2px solid #d40f0f;
+    width: 7rem;
+}
+
+#furniture_item {
+    border-bottom: 2px solid #723e06;
+    width: 7rem;
+}
+
+#search_item {
+    border-bottom: 2px solid #232323;
+    width: 7rem;
+}
+
+.nav-item {
+    margin:0px 5px;
+    font-size: 12px;
+}
+
+/********************* Main Image e Formulário *********************/
+
+#main_image {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 750px) {
+    img {
+      width: 100%;
+    }
+
+    .formulario_item {
+        width: 100%;
+    }
+
+    input {
+        font-size: 100%;
+    }
+
+    .bottom_text {
+        position: absolute;
+        bottom: 3px;
+        left: 10px;
+        margin-left: 20px;
+    }
+  }
+
+@media only screen and (max-width: 500px) {
+    select {
+        max-width: 100%;
+    }
+}
+
+
+.container-fluid {
+    padding: 0;
+    border: 0;
+}
+
+#rectangular {
+    background-color: #f7f3f2;
+}
+
+h4 {
+    color: #d40f0f;
+    margin-left:15%;
+    margin-right:50px;
+    text-align: left;
+    font-weight: 400;
+}
+
+hr {
+    border: 2px solid #d40f0f;
+    width:250px;
+    margin-left:15%;
+}
+
+.far {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.fas {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+input {
+    width: 75%;
+    border: 0px;
+    background-color: #f7f3f2;
+    border-bottom: 2px solid black;
+    margin-left: 10%;
+    margin-top:10px;
+    padding-left: 30px;
+    font-style: italic;
+    font-size: 10px;
+    padding-bottom:10px;
+    padding-top:10px;
+    color: #232323;
+}
+ 
+#country {
+    width: 50%;
+    margin-right:60%;
+}
+
+#occupation {
+    width: 60%;
+    margin-left: 19%;
+}
+#company {
+    width: 60%;
+}
+
+#icon_2 {
+    margin-left:18%;
+}
+
+#icon_3 {
+    margin-left:20%;
+}
+
+#formulario_item {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+select {
+    width: 75%;
+    border: 0px;
+    background-color: #f7f3f2;
+    border-bottom: 2px solid black;
+    margin-left: 17%;
+    margin-top:10px;
+    padding-left: 30px;
+    font-style: italic;
+    font-size: 10px;
+    padding-bottom:10px;
+    padding-top:10px;
+    color: #232323;
+}
+
+select:hover {
+    text-decoration: none;
+}
+
+.submit {
+    margin-top: 10px;
+    margin-left: 60%;
+    background-color: #fff;
+    border: 0px;
+    padding: 0 20px;
+    font-size: 10px;
+}
+
+/********************* Tipos de candeeiros *********************/
+
+.bottom_text {
+    position: absolute;
+    bottom: 3px;
+    left: 10px;
+    font-size:12px;
+}
+
+#botti_item {
+    border-bottom: 2px solid #74184f;
+}
+#botti_text {
+    color: #74184f;
+}
+
+#turner_item {
+    border-bottom: 2px solid #f36c2e;
+}
+#turner_text {
+    color: #f36c2e;
+ }
+
+#brubeck_item {
+    border-bottom: 2px solid #0079a7;
+}
+#brubeck_text {
+    color: #0079a7;
+ }
+
+#amy_item {
+    border-bottom: 2px solid #16e4b9;
+}
+#amy_text {
+   color: #16e4b9;
+}
+
+#carter_item {
+    border-bottom: 2px solid #74184f;
+}
+#carter_text {
+    color: #74184f;
+}

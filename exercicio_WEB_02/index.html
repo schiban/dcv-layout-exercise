@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>DelightFULL</title>
+  </head>
+  <body>
+    
+
+    <!--***************** Barra de Navegação *****************-->    
+
+  <nav class="navbar navbar-expand-md navbar-light" style="padding-top:0">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" style="margin-top: 5px" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item" id="all_products_item">
+            <a class="nav-link" href="#" style="padding-left:0px">ALL PRODUCTS</a>
+          </li>
+          <li class="nav-item" id="suspension_item">
+            <a class="nav-link" href="#" style="padding-left:0px">SUSPENSION</a>
+          </li>
+          <li class="nav-item" id="floor_item">
+            <a class="nav-link" href="#" style="padding-left:0px">FLOOR</a>
+          </li>
+          <li class="nav-item" id="table_item">
+            <a class="nav-link" href="#" style="padding-left:0px">TABLE</a>
+          </li>
+          <li class="nav-item" id="wall_item">
+            <a class="nav-link" href="#" style="padding-left:0px">WALL</a>
+          </li>
+          <li class="nav-item" id="graphic_item">
+            <a class="nav-link" href="#" style="padding-left:0px">GRAPHIC</a>
+          </li>
+          <li class="nav-item" id="furniture_item">
+            <a class="nav-link" href="#" style="padding-left:0px">FURNITURE</a>
+          </li>
+          <li class="nav-item" id="search_item">
+            <a class="nav-link" href="#" style="padding-left:0px">SEARCH</a>
+          </li>
+        </ul>      
+    </div>
+  </nav>
+
+
+  <!--***************** Imagem + Formulário *****************-->
+
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-center">
+
+          <!-- Imagem --> 
+        <div class="col-lg-5 col-md-5 col-xs-12 px-0">
+          <img src="/images/main-image.jpg" class="img-fluid" id="main_image" style="width: 960px;"alt=""/>        
+        </div>
+
+          <!-- Formulário --> 
+        <div class="col-lg-5 col-md-5 col-xs-12 px-0"  id="rectangular">
+          <div class="row" id="formulario_item">
+            <h4>BOOK A VIRTUAL MEETING</h4>
+            <hr>
+            <div class="col-md-12 px-0">
+              <i class="far fa-user" id="icon"></i>
+              <input id="name" placeholder="Enter your Name" type="text"/>
+            </div> 
+            <div class="col-md-12 px-0">
+              <i class="far fa-envelope" id="icon"></i>
+            <input id="email" placeholder="Enter your Email" type="text"/>
+            </div>
+            <div class="col-md-7 px-0">
+              <i class="fas fa-map-marker-alt" id="icon_2"></i>
+              <select id="country" name="country" placeholder="Choose your Country">
+                <option value="UK">Choose your Country</option>
+                <option value="USA">Portugal</option>
+                <option value="SA">United Kingdom</option>
+              </select>  
+            </div>          
+            <div class="col-lg-12" >
+              <div class="row">
+                <div class="col-lg-6 px-0">
+                  <i class="fas fa-briefcase" id="icon_3"></i>
+                  <select id="occupation" name="occupation" placeholder="Choose your Occupation">
+                    <option value="UK">Choose your Occupation</option>
+                    <option value="USA">Web Design</option>
+                    <option value="SA">Customer Service</option>
+                  </select> 
+                </div>
+                <div class="col-md-6 px-0">     
+                  <i class="far fa-building" id="icon"></i>
+                  <input id="company" placeholder="Choose your Company" type="text"/>
+                </div>
+                <div class="col-md-12 px-0">
+                  <button type="submit" value="Submit" class="submit">SEND NOW</button>      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    <!--***************** Tipos de Candeeiros *****************-->
+
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-2 col-md-2 px-0">
+          <img src="/images/products-cat/1-suspension.jpg" class="img-fluid" id="botti_item" alt=""/>
+          <div class="bottom_text" id="botti_text">BOTTI SUSPENSION</div>
+        </div>
+        <div class="col-lg-2 col-md-2 px-0">
+          <img src="/images/products-cat/2-wall.jpg" class="img-fluid" id="turner_item" alt="" />
+          <div class="bottom_text" id="turner_text">TURNER WALL</div>
+        </div>
+        <div class="col-lg-2 col-md-2 px-0">
+          <img
+            src="/images/products-cat/3-floor.jpg" class="img-fluid" id="brubeck_item" alt="" />
+            <div class="bottom_text" id="brubeck_text">BRUBECK FLOOR</div>
+        </div>
+        <div class="col-lg-2 col-md-2 px-0">
+          <img
+            src="/images/products-cat/4-table.jpg" class="img-fluid" id="amy_item" alt="" />
+            <div class="bottom_text" id="amy_text">AMY TABLE</div>
+        </div>
+        <div class="col-lg-2 col-md-2 px-0">
+          <img
+            src="/images/products-cat/5-pendant.jpg" class="img-fluid" id="carter_item" alt="" />
+            <div class="bottom_text" id="carter_text">CARTER PENDANT</div>
+        </div>
+      </div>
+    </div>
+
+    <!--***************** Scripts *****************-->
+
+    <!-- Bootstrap scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/32c275dabf.js" crossorigin="anonymous"></script>
+  </body>
+</html>
